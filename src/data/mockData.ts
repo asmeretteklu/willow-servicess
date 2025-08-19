@@ -1,0 +1,66 @@
+export const services = [
+  {
+    id: "1",
+    title: "Data Entry Services",
+    description: "Professional data entry services with 99.9% accuracy guarantee. We handle all types of data entry projects.",
+    price: 15.99,
+    duration: "per hour",
+    category: "Data Services",
+    image: "/services/data-entry.jpg",
+    featured: true,
+  },
+  {
+    id: "2",
+    title: "Online Passport Application",
+    description: "Complete assistance with online passport applications, documentation, and processing.",
+    price: 49.99,
+    duration: "one-time",
+    category: "Government Services",
+    image: "/services/passport.jpg",
+    featured: true,
+  },
+  {
+    id: "3",
+    title: "Website Development",
+    description: "Custom website development services tailored to your business needs.",
+    price: 299.99,
+    duration: "project-based",
+    category: "Web Services",
+    image: "/services/website.jpg",
+    featured: true,
+  },
+  {
+    id: "4",
+    title: "Document Digitization",
+    description: "Convert your physical documents to digital format with our professional scanning services.",
+    price: 25.99,
+    duration: "per 100 pages",
+    category: "Data Services",
+    image: "/services/digitization.jpg",
+    featured: false,
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Sarah Johnson",
+    role: "Small Business Owner",
+    content: "hhhhm's data entry services saved me countless hours. Their team is professional and accurate!",
+    avatar: "/avatars/1.jpg",
+  },
+  {
+    id: 2,
+    name: "Michael Chen",
+    role: "Travel Blogger",
+    content: "The passport application service was seamless. I got my passport in record time without any hassle.",
+    avatar: "/avatars/2.jpg",
+  },
+  {
+    id: 3,
+    name: "Emma Rodriguez",
+    role: "Startup Founder",
+    content: "Our website looks amazing thanks to hhhhm's development team. They understood our vision perfectly.",
+    avatar: "/avatars/3.jpg",
+  },
+];
