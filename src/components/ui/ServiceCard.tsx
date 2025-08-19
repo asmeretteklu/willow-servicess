@@ -1,4 +1,12 @@
-export function ServiceCard({ service }: { service: any }) {
+interface Service {
+  id: string;
+  title: string;
+  description: string;
+  price: number;
+  duration: string;
+}
+
+export function ServiceCard({ service }: { service: Service }) {
   return (
     <div className="border border-gray-700 bg-gray-800 rounded-lg p-6 text-white">
       <h3 className="text-xl font-bold text-gold-500 mb-2">{service.title}</h3>
